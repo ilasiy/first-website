@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Supercorp fanpage</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Russo+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Russo+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Cabin:ital,wght@0,400..700;1,400..700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap" rel="stylesheet">
+        <meta name="description" content="supercorp fanfictions and fanart site">
+        <meta name="keywords" content="supercorp, fanfiction, fanart">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <header class="header">
+            <a href="main-page.html"><img src="logo.png" alt="Supercorp logo"></a>
+            <h3>Supercorp fanfictions and fanart</h3>
+        </header>
+        <nav class="nav">
+            <a href="main-page.html">Home</a>
+            <a href="submit-fanfiction.html">Submit Fanfiction</a>
+            <a href="recomandations.html">Recomandations</a>
+            <a href="fanart.html">Fanart</a>
+        </nav>
+        <main>
+            <div>
+                <h1>Submitt a fanfiction</h1>
+                <form actio="/mail-page.html" method="post" class="form">
+                    <fieldset class="fieldset">
+                        <legend class="legend"><a>Post a Fanfiction</a></legend>
+
+                        <div class="information">
+                            <lable class="title" for="workTitle">Work Title</lable>
+                            <input type="text" id="workTitle" name="work_titile" required>
+                        </div>
+
+                        <div class="information">
+                            <lable class="author" for="author">Author</lable>
+                            <input type="text" id="author" name="author" required>
+                        </div>
+
+                        <div> Warnings
+                            <div class="checkbox">
+                                <lable class="none" for="none">None</lable>
+                                <input type="checkbox" id="none" name="none">
+                                <lable class="violence" for="graphicDepictionOfViolence">Graphic depiction of violence</lable>
+                                <input type="checkbox" id="graphicDepictionOfViolence" name="Graphic_depiction_of_violence">
+                                <lable class="nsfw" for="nFSW">NSFW</lable>
+                                <input type="checkbox" id="nfsw" name="nsfw">
+                            </div>
+                        </div>
+
+                        <div class="information">
+                            <lable classs="text" for="fanfictionText">Fanfiction Text</lable>
+                            <textarea id="fanfictionText" name="fanfiction_text" placeholder="Write your fanfiction here..." required></textarea>
+                        </div>
+
+                        <div class="button">
+                            <button class="submit">Submit</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright © 2024 Supercorp. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>

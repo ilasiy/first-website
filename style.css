@@ -1,0 +1,176 @@
+body {
+    background-color: #090088;
+}
+
+.deader a,
+.header h3 {
+    display: inline-block;
+}
+
+h3 {
+    float: inline-end;
+}
+
+.header img{
+    max-height: 10%;
+    max-width: 10%;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    border-style: solid none solid none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFD700;
+}
+
+.nav a,
+h2 a,
+dt,
+h3 {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-style: none;
+}
+
+em,
+dd,
+form {
+    font-family: "Cabin Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active,
+h3 {
+    color: #FF4500;
+    text-decoration: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #FF4500;
+    font-family: "Russo One";
+}
+
+.container,
+fieldset {
+    background-color: #FFD700;
+    list-style-type: none;
+    padding: 10px;
+    border: 1em;
+    margin: 10px;
+    border-radius: 1em;
+}
+
+.tags,
+li.warnings,
+li.relationship,
+li.characters,
+li.other {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    font-family: "Cabin Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.warnings a,
+.relationship a,
+.characters a,
+.other a {
+    padding: 2px;
+    margin: 3px;
+    background-color: #466ec4;
+    border-radius: 1em;
+}
+
+.info,
+.info dd,
+.info dt {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-inline-start: 1px;
+    margin-inline-end: 10px;
+}
+
+.legend a {
+    border: 3px;
+    background-color: #FFD700;
+    border-radius: 1em;
+    padding: 2px;
+}
+
+.information {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title,
+.author {
+    display: flex;
+    justify-content: center;
+}
+
+.checkbox {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.fieldset {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 300px;
+    margin: auto;
+}
+
+.form {
+    display:flex;
+    justify-content: center;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.picture img {
+    max-height: 95%;
+    max-width: 95%;
+}
+
+textarea {
+    width: 300px;
+    height: 400px;
+}
+
+.violence,
+.nsfw {
+    padding-left: 40px;
+}
